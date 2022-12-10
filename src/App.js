@@ -2,6 +2,7 @@
 import './App.css';
 import Header from './components/header';
 import './index.css';
+import'./css component/responsive.css';
 import{BrowserRouter,Routes,Route} from "react-router-dom"
 import PageLogin from './components/pageLogin';
 import Profile from './components/profile';

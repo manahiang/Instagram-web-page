@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsEmojiSmile, BsFillBookmarkFill, BsFillCursorFill, } from "react-icons/bs";
+import { BsEmojiSmile, BsFillBookmarkFill, BsFillCursorFill,BsBookmark } from "react-icons/bs";
 import { TfiInstagram } from "react-icons/tfi";
 import { FiLogOut, FiMonitor, FiPaperclip, FiSettings, } from "react-icons/fi";
 import { AiOutlineHome, AiOutlineMenu } from "react-icons/ai";
@@ -43,7 +43,7 @@ function Feed2() {
                                                 <p>134 Share</p>
                                             </div>
                                             <div className='love'>
-                                                <a href=''> <BsFillBookmarkFill className='icon1' /></a>
+                                                <a href=''> <BsBookmark className='icon1' /></a>
                                                 <p>16 Saved</p>
                                             </div>
                                         </div>

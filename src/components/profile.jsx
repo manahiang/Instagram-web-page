@@ -10,7 +10,7 @@ function Profile() {
                                 </div>
                                 <div className='title'>
                                     <h4>CR.Ronaldo</h4>
-                                    <p style={{ color: 'black', fontWeight: '400' }}>Portugal</p>
+                                    <p style={{ color: 'black', fontWeight: '400' }} className="portugal">Portugal</p>
                                 </div>
                             </div>
                         </div></a>
