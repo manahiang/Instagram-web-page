@@ -202,6 +202,7 @@ a {
   width: 80%;
   background-color: #f5f5f5;
   margin: auto;
+  border-radius: 10px;
 }
 
 .searchXc-n-p {
@@ -265,12 +266,14 @@ a {
   width: 100%;
   margin: auto;
   background-color: #f5f5f5;
+  border-radius: 20px;
 }
 
 .controll-story {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 20px;
   padding-bottom: 30px;
 }
 
@@ -304,6 +307,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 3px;
+  
 }
 
 .add-story-first {
@@ -336,17 +340,17 @@ a {
 .profile-story {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* Main Feeds */
 .main-feeds {
   background-color: #f5f5f5;
-  padding-top: 40px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 30px;
+  padding: 30px 20px;
 }
 
 .feed p {
@@ -606,7 +610,7 @@ a {
 }
 
 .grid-image img {
-  width: 106px;
+  width: 90px;
   height: 80px;
   border-radius: 5px;
 }

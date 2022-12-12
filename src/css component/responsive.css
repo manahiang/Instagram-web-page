@@ -267,11 +267,11 @@
 @media (max-width:1500px) {
 
   .left-menu {
-    transform: translate(60px, 0px);
+    transform: translate(3px, 0px);
   }
 
   .right-menu {
-    transform: translate(-60px, 0px);
+    transform: translate(-3px, 0px);
   }
   .input-comment input{
     margin-left: -10px;
@@ -324,11 +324,13 @@
 
 
   .left-menu {
-    transform: translate(60px, 0px);
+    transform: translate(2px, 0px);
   }
 
   .right-menu {
-    transform: translate(-60px, 0px);
+    transform: translate(-2px, 0px);
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .icon-search {
@@ -338,18 +340,6 @@
     cursor: pointer;
   }
 
-  .search input {
-    font-size: 15px;
-    width: 30%;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 205px;
-    border-radius: 15px;
-    border: 0px;
-    background-color: rgb(227, 227, 226);
-    outline: none;
-    margin-left: -10px;
-  }
 
   .comment .input-comment input {
     font-size: 15px;
@@ -396,11 +386,11 @@
 
 
   .left-menu {
-    transform: translate(40px, 0px);
+    transform: translate(5px, 0px);
   }
 
   .right-menu {
-    transform: translate(-40px, 0px);
+    transform: translate(-5px, 0px);
   }
   .search1 input{
     width: 300px;
@@ -469,7 +459,7 @@
   .profile-story {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .story-name {
@@ -613,7 +603,7 @@
   .profile-story {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .story-name {
@@ -691,6 +681,11 @@
 
   .pic-story img {
     width: 50px;
+  }
+  .profile-story{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 
@@ -805,7 +800,7 @@
   .profile-story {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .story-name {
@@ -970,7 +965,7 @@
   .profile-story {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .story-name {
