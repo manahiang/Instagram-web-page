@@ -29,14 +29,14 @@ margin: auto;
 
 .left-menu {
   width: 250px;
-  background-color: #e0e0e0;
+  background-color: #f9f9f9;
   box-shadow: 0px 0px 2px;
   height: 1200px;
 }
 
 .body {
-  background-color: #e71414;
   height: 1200px;
+  overflow: hidden;
 }
 
 .right-menu {
@@ -52,11 +52,13 @@ margin: auto;
   display: flex;
   padding: 20px;
   margin-left: 10px;
+  z-index: 2;
 }
 
 .logo div {
   padding-left: 10px;
   font-size: 27px;
+  z-index: 2;
   font-weight: 600;
 
 }
@@ -208,31 +210,27 @@ a {
   justify-content: space-between;
   padding: 10px;
   position: relative;
+  z-index: 1;
 }
 
-.search input {
-  font-size: 15px;
+.search2{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+ .searchXc-n-p .search2 input{
+
+  width: 80%;
   padding: 10px;
-  padding-left: 50px;
-  padding-right: 205px;
-  border-radius: 15px;
-  border: 0px;
-  background-color: rgb(227, 227, 226);
+  border-radius: 35px;
+  border:none;
   outline: none;
+  background-color: #e0e0e0;
+  padding-left: 20px;
 }
-
-.icon-search {
-  font-size: 30px;
-  transform: translate(-460px, 12px);
-  color: rgb(142, 142, 142);
-  cursor: pointer;
-}
-
-.icon-mic {
-  font-size: 25px;
-  transform: translate(-65px, 6px);
-  color: rgb(93, 93, 93);
-  cursor: pointer;
+.searchXc-n-p .icon-search1{
+  font-size: 20px;
+  transform: translate(-50px,0px);
 }
 
 /* Create new post */
@@ -243,9 +241,8 @@ a {
   background-color: rgb(245, 27, 176);
   border-radius: 25px;
   padding: 5px;
-  font-family: serif;
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 180px;
+  
 }
 
 .icon-plus {
@@ -253,11 +250,13 @@ a {
   font-size: 20px;
   padding-right: 10px;
   font-weight: 600;
+  padding-left: 10px;
 }
 
 .new-post p {
   color: white;
   font-weight: 600;
+  margin-right: 5px;
 }
 
 
@@ -510,32 +509,29 @@ a {
   border-radius: 50%;
 }
 
-.input-comment input {
-  font-size: 18px;
-  padding: 15px 0px;
-  border-radius: 30px;
-  border: none;
-  outline: none;
-  padding-right: 400px;
-  padding-left: 30px;
-  background-color: rgb(203, 203, 203);
-  transform: translate(20px, 0px);
-}
 
-.input-comment {
+.input-comment1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+}
+.input-comment1 input{
+  width: 100%;
+  border-radius: 20px;
+  padding: 9px;
+  padding-left: 20px;
+  margin-left: 50px;
+  border: 0px solid black;
+  outline: none;
+  background-color: rgb(203, 203, 203);
 }
 
-.c-comment {
-  display: flex;
-  transform: translate(-150px, 0px);
-}
 
-.icon-comment {
-  padding: 10px;
-  font-size: 25px;
+.input-comment1 .icon-comment {
+  font-size: 30px;
+  transform: translate(-120px,0px);
+  padding: 5px;
 }
 
 /* Right Menu */
@@ -709,7 +705,6 @@ a {
 
 .container-log-in {
   width: 1280px;
-  margin: auto;
 }
 
 .center-log-in {
@@ -728,7 +723,9 @@ a {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-column-gap: 2rem;
+  }
+  .main-line .or{
+    transform: translate(190px,-10px);
   }
 }
 
@@ -736,7 +733,26 @@ a {
   width: 650px;
   padding-top: 30px;
 }
-
+@media (max-width:500px) {
+  .grid img{
+    width: 300px;
+   margin: auto;
+  }
+  .app-store .icon-apple,
+.apple-text {
+  padding-left: 8px;
+  font-weight: 600;
+}
+.line2 {
+  border: 1px solid rgb(101, 97, 97);
+  width: 30%;
+  text-align: center;
+  transform: translate(-100px, -20px);
+}
+.main-line .or{
+  transform: translate(10px,-10px);
+}
+}
 /* Log in */
 
 .main-log-in {
@@ -749,7 +765,7 @@ a {
 }
 
 .log-in {
-  width: 100%;
+  width: 90%;
 
   height: 640px;
   z-index: 10;
@@ -849,7 +865,7 @@ a {
   height: 20px;
   text-align: center;
   background-color: white;
-  transform: translate(190px, -14px);
+  transform: translate(0px, -14px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -898,6 +914,9 @@ a {
   text-align: center;
   transform: translate(0px, -20px);
 }
+.or{
+  transform: translate(170px,-10px);
+}
 
 .no-account {
   color: blue;
@@ -910,7 +929,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 100px;
+  padding: 15px 40px;
 }
 
 .app-store {
@@ -924,8 +943,9 @@ a {
 
 .app-store .icon-apple,
 .apple-text {
-  padding-left: 10px;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 1;
+  padding-right: 10px;
 }
 
 .icon-apple {
@@ -950,6 +970,6 @@ a {
   transform: translate(7px, 3px);
   visibility: hidden;
   position: absolute;
-  z-index: 1;
+  z-index: 11;
 }
 

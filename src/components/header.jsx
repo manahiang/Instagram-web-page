@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsEmojiSmile, BsFillBookmarkFill, BsFillCursorFill, } from "react-icons/bs";
+import { BsEmojiSmile, BsFillBookmarkFill, BsFillCursorFill, BsSearch, } from "react-icons/bs";
 import { TfiInstagram } from "react-icons/tfi";
 import { FiLogOut, FiMonitor, FiPaperclip, FiSettings, } from "react-icons/fi";
 import { AiOutlineHome, AiOutlineMenu } from "react-icons/ai";
@@ -49,10 +49,9 @@ function Header() {
                             {/* Search */}
 
                             <div className='searchXc-n-p'>
-                                <div className='search'>
-                                    <input placeholder='search' />
-                                    <a href=''><BiSearch className="icon-search" /></a>
-                                    <a href=''><BiMicrophone className='icon-mic' /></a>
+                                <div className='search2'>
+                                    <input placeholder='search ....'/>
+                                    <BsSearch className="icon-search1"/>
                                 </div>
                                 {/* Create new post */}
                                 <a href='' ><div className='new-post'>

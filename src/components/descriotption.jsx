@@ -13,20 +13,20 @@ function Des() {
   return (
     <div>
          <div className='text'>
-                                    <p>Apply for a feature following the link in out bio and we well publish your photos in our account @travelsfever</p>
+                                    <p style={{width:'100%'}}>Apply for a feature following the link in out bio and we well publish your photos in our account @travelsfever</p>
                                 </div>
                                 <div className='comment'>
                                     <div className='comment-pic'>
                                         <img src="https://imageio.forbes.com/specials-images/imageserve/627bd291633f3fbbcda36428/0x0.jpg?format=jpg&crop=2057,2059,x918,y85,safe&height=416&width=416&fit=bounds" alt='pic' />
                                     </div>
-                                    <div className='input-comment'>
+                                    <div className='input-comment1'>
                                         <input placeholder='Write your comment...' />
-                                        <div className='c-comment'>
                                             <FiPaperclip className='icon-comment' />
                                             <BsEmojiSmile className='icon-comment' />
                                             <BiImage className='icon-comment' />
-                                        </div>
+                                        
                                     </div>
+                                    
                                 </div>
     </div>
   )
