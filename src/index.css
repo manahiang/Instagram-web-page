@@ -13,36 +13,32 @@ code {
     monospace;
 }
 
-/* .container {
-background-color: red;
-} */
 
 .center {
 margin: auto;
+padding-top: 1px;
 }
 
 .flex {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-
 .left-menu {
   width: 250px;
   background-color: #f9f9f9;
-  box-shadow: 0px 0px 2px;
-  height: 1200px;
+  height: 300vh;
 }
 
 .body {
-  height: 1200px;
+  height: 300vh;
   overflow: hidden;
+  background-color: #f2f2f2;
 }
 
 .right-menu {
   width: 250px;
   background-color: #f2f2f2;
-  height: 1200px;
+  height: 300vh;
   box-shadow: 0px 0px 5px rgb(148, 147, 147);
 }
 
@@ -634,29 +630,34 @@ a {
   border-radius: 50%;
 }
 
-.pro-right .title {
+.pro-right .title3 {
   padding-left: 10px;
 }
 
-.pro-right .title p {
+.pro-right .title3 .p1,.p2{
   font-size: 15px;
   text-align: left;
+  line-height: 1;
   font-family: 'Times New Roman', Times, serif;
+}
+.p1{
+  font-weight: 600;
 }
 
 /* Profile activity */
 .pro-activity {
-  background-color: #f2f2f2;
   padding-top: 20px;
+  width: 100%;
 }
 
 .main-multi-pro {
-  background-color: rgb(231, 231, 231);
+
   transform: translate(0px, 15px);
   padding-top: 25px;
   margin: auto;
   height: auto;
   border-radius: 10px;
+  width: 100%;
 }
 
 .center-multi-pro {

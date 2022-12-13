@@ -47,7 +47,6 @@ function Header() {
                     <div className='body'>
                         <div className='body-container'>
                             {/* Search */}
-
                             <div className='searchXc-n-p'>
                                 <div className='search2'>
                                     <input placeholder='search ....'/>
@@ -83,6 +82,8 @@ function Header() {
                                 {
                                     <Des />
                                 }
+                                <br/>
+                               
                             </div>
                         </div>
                     </div>
